@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shou</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="title container">O'yinchi malumotlari</h1>
+    </div>
+    <section class="input_data container">
+      <input class="name1" placeholder="1-oyinchi-ismini_kirit" type="text" />
+      <input class="name2" placeholder="2-oyinchi-ismini_kirit" type="text" />
+      <input
+        class="finish"
+        placeholder="oyin necha balgacha davom etsin"
+        type="number"
+      />
+      <button onclick="dataSave()" class="btn">Saqlash</button>
+    </section>
+    <div class="box container">
+      <section class="gamer1">
+        <div class="data_maydon">
+          <h2 class="gamer1_name">Sunnatilla</h2>
+          <p class="gamer1_bal">0</p>
+        </div>
+        <div class="game_1 game">
+          <p class="game1">0</p>
+          <button class="btn1">random</button>
+        </div>
+      </section>
+      <section class="gamer2">
+        <div class="data_maydon">
+          <h2 class="gamer2_name">Asror</h2>
+          <p class="gamer2_bal">0</p>
+        </div>
+        <div class="game_2 game">
+          <p class="game2">0</p>
+          <button class="btn2">random</button>
+        </div>
+      </section>
+    </div>
+    <div class="container">
+      <h1 class="win"></h1>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
